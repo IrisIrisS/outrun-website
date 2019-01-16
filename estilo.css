@@ -1,0 +1,58 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(9, 9, 9);
+
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  width: 800px;
+  background: url('./img/unnamed.gif');
+  /* background: url('./img/manolo50.jpg'); */
+  /* background: url('./img/manolo58.jpg'); */
+  /* background: url('./img/manolo60.jpg'); */
+  /* background: url('./img/manolo62.jpg'); */
+  /* background: url('./img/Manolo63.jpg'); */
+  /* background: url('./img/manolo69.jpg'); */
+  /* background: url('./img/manolo70.jpg'); */
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+}
+
+/* .logoBackground {
+  display: inherit;
+  height: 330px;
+  width: 800px;
+  background-color: black;
+} */
+
+.logo {
+  display: inherit;
+  margin-right: 10px;
+  height: 325px;
+  width: 800px;
+  /* border: 1px solid; */
+  margin-top: -425px;
+  padding: 10px;
+  /* background-color: black; */
+
+}
+
+.description {
+display: inherit;
+height: 700px;
+width: 800px;
+border: 1px solid darkmagenta;
+margin-top: 85px;
+align-self: center;
+}
+
+.footer{
+  display: inherit;
+  border: 1px solid darkmagenta;
+}
